@@ -1,0 +1,247 @@
+{
+    "id": "fe58c7bb30f62f324e90d5f3fb63e389",
+    "name": "OrgHunter",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "2a5a35290a0e205a35f2acb6b9ec6700",
+            "name": "Get categories!",
+            "url": "http:\/\/data.orghunter.com\/\/v1\/categories",
+            "description": "<p>This operation provides a list of categories.<\/p>",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "rawModeData": ""
+        },
+        {
+            "id": "fbec1811adbe916827ed609f569c0bef",
+            "name": "Get details!",
+            "url": "http:\/\/data.orghunter.com\/\/v1\/charitybasic",
+            "description": "<p>This operation detail data.<\/p>",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "ein",
+                    "description": "ein (Employer Identification Number)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "rawModeData": ""
+        },
+        {
+            "id": "b178ffd298c909911a0fd56f56871b75",
+            "name": "Get details!",
+            "url": "http:\/\/data.orghunter.com\/\/v1\/charityfinancial",
+            "description": "<p>This operation detail data.<\/p>",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "ein",
+                    "description": "ein (Employer Identification Number)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "rawModeData": ""
+        },
+        {
+            "id": "5669ce85c0d4a0d60b340890137f480a",
+            "name": "Get details!",
+            "url": "http:\/\/data.orghunter.com\/\/v1\/charitygeolocation",
+            "description": "<p>This operation detail data.<\/p>",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "ein",
+                    "description": "ein (Employer Identification Number)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "rawModeData": ""
+        },
+        {
+            "id": "40ef6bc421fd4549e8280475cf21012b",
+            "name": "Get details!",
+            "url": "http:\/\/data.orghunter.com\/\/v1\/charitypremium",
+            "description": "<p>This operation detail data.<\/p>",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "ein",
+                    "description": "ein (Employer Identification Number)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c93293fc370c3d349105bee61cf579b",
+            "name": "Get summary data!",
+            "url": "http:\/\/data.orghunter.com\/\/v1\/charitysearch",
+            "description": "<p>This operation provides summary data.<\/p>",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "ein",
+                    "description": "ein (Employer Identification Number)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "searchTerm",
+                    "description": "Charity Name or Keyword. Example: humane society or cancer",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "City Name. Example: Miami",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "State Name - Two letter state abbreviation",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "zipCode",
+                    "description": "Zipcode Value - 5 digit zipcode value",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "category",
+                    "description": "Category Value Selected from Categories API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "eligible",
+                    "description": "eligible=1 will return only organizations that are tax deductible and in good standing with the IRS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start",
+                    "description": "Record Set Start Position",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "rows",
+                    "description": "Records Per Page. Default Value = 20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "rawModeData": ""
+        }
+    ]
+}

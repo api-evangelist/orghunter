@@ -1,0 +1,99 @@
+{
+    "name": "OrgHunter",
+    "description": "OrgHunter.com is the number one destination for online charity and donor matching services. Every charity deserves the opportunity to be discovered regardless of size or financial status.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28476-org-hunter.jpg",
+    "tags": [
+        "api provider",
+        "charities",
+        "general data",
+        "have api",
+        "have swagger",
+        "new",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/orghunter\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Org Hunter",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28476-org-hunter.jpg",
+            "humanURL": "http:\/\/orghunter.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/org-hunter-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/org-hunter.json"
+                }
+            ]
+        },
+        {
+            "name": "OrgHunter",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28476-org-hunter.jpg",
+            "humanURL": "http:\/\/orghunter.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/orghunter-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/orghunter.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Email",
+            "url": "info@orghunter.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@orghunter.com"
+        },
+        {
+            "type": "Email",
+            "url": "partner@orghunter.com"
+        },
+        {
+            "type": "Email",
+            "url": "media@orghunter.com"
+        },
+        {
+            "type": "Email",
+            "url": "salesdept@orghunter.com"
+        },
+        {
+            "type": "Email",
+            "url": "api@orghunter.com"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28476-2019-09-04-08-01-27.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28476-2019-09-04-09-35-25.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/OrgHunter"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/orghunter.com"
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Org Hunter",
+        "description": "Get the latest IRS data and most up to date charity information for your website or application",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsdata.orghunter.com\/"
+    ],
+    "paths": {
+        "\/v1\/categories": {
+            "post": {
+                "summary": "Get categories!",
+                "description": "This operation provides a list of categories.",
+                "operationId": "PostV1Categories",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v1\/charitybasic": {
+            "post": {
+                "summary": "Get details!",
+                "description": "This operation detail data.",
+                "operationId": "PostV1Charitybasic",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "ein",
+                        "in": "query",
+                        "description": "ein (Employer Identification Number)"
+                    }
+                ]
+            }
+        },
+        "\/v1\/charityfinancial": {
+            "post": {
+                "summary": "Get details!",
+                "description": "This operation detail data.",
+                "operationId": "PostV1Charityfinancial",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "ein",
+                        "in": "query",
+                        "description": "ein (Employer Identification Number)"
+                    }
+                ]
+            }
+        },
+        "\/v1\/charitygeolocation": {
+            "post": {
+                "summary": "Get details!",
+                "description": "This operation detail data.",
+                "operationId": "PostV1Charitygeolocation",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "ein",
+                        "in": "query",
+                        "description": "ein (Employer Identification Number)"
+                    }
+                ]
+            }
+        },
+        "\/v1\/charitypremium": {
+            "post": {
+                "summary": "Get details!",
+                "description": "This operation detail data.",
+                "operationId": "PostV1Charitypremium",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "ein",
+                        "in": "query",
+                        "description": "ein (Employer Identification Number)"
+                    }
+                ]
+            }
+        },
+        "\/v1\/charitysearch": {
+            "post": {
+                "summary": "Get summary data!",
+                "description": "This operation provides summary data.",
+                "operationId": "PostV1Charitysearch",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "ein",
+                        "in": "query",
+                        "description": "ein (Employer Identification Number)"
+                    },
+                    {
+                        "name": "searchTerm",
+                        "in": "query",
+                        "description": "Charity Name or Keyword. Example: humane society or cancer"
+                    },
+                    {
+                        "name": "city",
+                        "in": "query",
+                        "description": "City Name. Example: Miami"
+                    },
+                    {
+                        "name": "state",
+                        "in": "query",
+                        "description": "State Name - Two letter state abbreviation"
+                    },
+                    {
+                        "name": "zipCode",
+                        "in": "query",
+                        "description": "Zipcode Value - 5 digit zipcode value"
+                    },
+                    {
+                        "name": "category",
+                        "in": "query",
+                        "description": "Category Value Selected from Categories API"
+                    },
+                    {
+                        "name": "eligible",
+                        "in": "query",
+                        "description": "eligible=1 will return only organizations that are tax deductible and in good standing with the IRS"
+                    },
+                    {
+                        "name": "start",
+                        "in": "query",
+                        "description": "Record Set Start Position"
+                    },
+                    {
+                        "name": "rows",
+                        "in": "query",
+                        "description": "Records Per Page. Default Value = 20"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}

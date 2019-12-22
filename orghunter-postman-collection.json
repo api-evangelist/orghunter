@@ -1,5 +1,5 @@
 {
-    "id": "fe58c7bb30f62f324e90d5f3fb63e389",
+    "id": "618c424dc955273fadd49feb72a752ae",
     "name": "OrgHunter",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "2a5a35290a0e205a35f2acb6b9ec6700",
+            "id": "4c93f944ca5faca2a97837fa8745ffe1",
             "name": "Get categories!",
             "url": "http:\/\/data.orghunter.com\/\/v1\/categories",
             "description": "<p>This operation provides a list of categories.<\/p>",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "collectionId": "618c424dc955273fadd49feb72a752ae",
             "rawModeData": ""
         },
         {
-            "id": "fbec1811adbe916827ed609f569c0bef",
+            "id": "d59695a078ffa98010049059e267583c",
             "name": "Get details!",
             "url": "http:\/\/data.orghunter.com\/\/v1\/charitybasic",
             "description": "<p>This operation detail data.<\/p>",
@@ -60,11 +60,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "collectionId": "618c424dc955273fadd49feb72a752ae",
             "rawModeData": ""
         },
         {
-            "id": "b178ffd298c909911a0fd56f56871b75",
+            "id": "0fb2e5c6d908b2490adf139e2945b3b6",
             "name": "Get details!",
             "url": "http:\/\/data.orghunter.com\/\/v1\/charityfinancial",
             "description": "<p>This operation detail data.<\/p>",
@@ -91,11 +91,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "collectionId": "618c424dc955273fadd49feb72a752ae",
             "rawModeData": ""
         },
         {
-            "id": "5669ce85c0d4a0d60b340890137f480a",
+            "id": "58ff6b67e277f0a68d31b49b0ae24492",
             "name": "Get details!",
             "url": "http:\/\/data.orghunter.com\/\/v1\/charitygeolocation",
             "description": "<p>This operation detail data.<\/p>",
@@ -122,11 +122,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "collectionId": "618c424dc955273fadd49feb72a752ae",
             "rawModeData": ""
         },
         {
-            "id": "40ef6bc421fd4549e8280475cf21012b",
+            "id": "f42fe2af1c8e1a3dae8d382fd7dc4231",
             "name": "Get details!",
             "url": "http:\/\/data.orghunter.com\/\/v1\/charitypremium",
             "description": "<p>This operation detail data.<\/p>",
@@ -153,11 +153,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "collectionId": "618c424dc955273fadd49feb72a752ae",
             "rawModeData": ""
         },
         {
-            "id": "9c93293fc370c3d349105bee61cf579b",
+            "id": "d8674624087886171fd1fd08c68dd713",
             "name": "Get summary data!",
             "url": "http:\/\/data.orghunter.com\/\/v1\/charitysearch",
             "description": "<p>This operation provides summary data.<\/p>",
@@ -240,7 +240,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "fe58c7bb30f62f324e90d5f3fb63e389",
+            "collectionId": "618c424dc955273fadd49feb72a752ae",
             "rawModeData": ""
         }
     ]

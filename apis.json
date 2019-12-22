@@ -11,8 +11,8 @@
         "new",
         "service api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/orghunter\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -26,7 +26,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/org-hunter-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/orghunter\/master\/org-hunter-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -44,7 +44,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/orghunter-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/orghunter\/master\/orghunter-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -55,6 +55,10 @@
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Email",
             "url": "info@orghunter.com"
